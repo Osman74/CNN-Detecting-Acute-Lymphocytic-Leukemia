@@ -27,7 +27,9 @@ The slide deck for this project can be found here. And this project is explored 
 
 ALL can be split into 3 distinct subtypes that makes identification difficult, even for experienced practitioners. L1 are small and homogeneous, round with no clefting, and with no obvious nucleoli or vacuoles. These are the most likely to pass as normal lymphoblasts. L2 are larger and heterogeneous, irregular shape and often clefted, and have defined nucleoli and vacuoles. L3 have the shape of L1 but have prominent nucleoli and vacuoles. (4, 5)
 
+
 ![image](https://user-images.githubusercontent.com/45330067/146030287-cf5bfec9-ac76-44c9-9fcf-bbef4775648b.png)
+
 ## Data Collection
 The data consists of 10,000+ images of single-cell microscopy acute lymphoblastic leukemia and normal lymphoblasts with a class imbalance of about 1:2 ALL to normal. Having enough images and computing resources without using all images, I decided to downsample the positive ALL class to manage class imbalance. Thus, training was completed with 4,000 images with a 55:45 class imbalance. The testing set remained imbalanced (3:10 ALL to normal) to more accurately evaluate the model in a real-world setting.
 
